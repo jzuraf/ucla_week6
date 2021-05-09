@@ -1,0 +1,72 @@
+body {
+  color: white;
+  padding-top: 3.5rem;
+  padding-bottom: 100px;
+  width: 960px;
+  margin: 0 auto;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22pt;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 960px;
+  height: 600px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 600px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  color: white;
+  font-weight: 400;
+  padding: .2rem 2rem;
+  border: 0;
+  border-radius: .2rem;
+  background-color: #24a0ed;
+  border-color: #24a0ed;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #4c7ba0;
+}
+
+.thumb-bar {
+  padding-bottom: 3.5rem;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
+
+p {
+  padding-bottom: 2rem;
+}
+
+img {
+  width: 50%;
+}
